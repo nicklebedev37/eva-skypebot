@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="evadbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="evadbModelStoreContainer">
+          <EntitySet Name="ChatSubscription" EntityType="evadbModel.Store.ChatSubscription" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DisabledChats" EntityType="evadbModel.Store.DisabledChats" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Feedbacks" EntityType="evadbModel.Store.Feedbacks" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Projects" EntityType="evadbModel.Store.Projects" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Resources" EntityType="evadbModel.Store.Resources" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_ChatSubscriptions_Projects" Association="evadbModel.Store.FK_ChatSubscriptions_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="ChatSubscription" EntitySet="ChatSubscription" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Resources_Projects" Association="evadbModel.Store.FK_Resources_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Resources" EntitySet="Resources" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ChatSubscription">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ChatName" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DisabledChats">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="Feedbacks">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UsersSkypeId" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="Text" Type="nvarchar" Nullable="false" MaxLength="500" />
+        </EntityType>
+        <EntityType Name="Projects">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="Alias" Type="nvarchar" Nullable="false" MaxLength="250" />
+        </EntityType>
+        <EntityType Name="Resources">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="Type" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="Url" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="Username" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="AdditionalFields" Type="nvarchar" Nullable="false" MaxLength="250" />
+          <Property Name="ProjectId" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_ChatSubscriptions_Projects">
+          <End Role="Projects" Type="evadbModel.Store.Projects" Multiplicity="1" />
+          <End Role="ChatSubscription" Type="evadbModel.Store.ChatSubscription" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ChatSubscription">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Resources_Projects">
+          <End Role="Projects" Type="evadbModel.Store.Projects" Multiplicity="1" />
+          <End Role="Resources" Type="evadbModel.Store.Resources" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Resources">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="evadbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="evadb" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="ChatSubscriptions" EntityType="evadbModel.ChatSubscription" />
+          <EntitySet Name="Feedbacks" EntityType="evadbModel.Feedback" />
+          <EntitySet Name="Projects" EntityType="evadbModel.Project" />
+          <EntitySet Name="Resources" EntityType="evadbModel.Resource" />
+          <AssociationSet Name="FK_ChatSubscriptions_Projects" Association="evadbModel.FK_ChatSubscriptions_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="ChatSubscription" EntitySet="ChatSubscriptions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Resources_Projects" Association="evadbModel.FK_Resources_Projects">
+            <End Role="Projects" EntitySet="Projects" />
+            <End Role="Resources" EntitySet="Resources" />
+          </AssociationSet>
+          <EntitySet Name="DisabledChats" EntityType="evadbModel.DisabledChat" />
+        </EntityContainer>
+        <EntityType Name="ChatSubscription">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="ChatName" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Project" Relationship="evadbModel.FK_ChatSubscriptions_Projects" FromRole="ChatSubscription" ToRole="Projects" />
+        </EntityType>
+        <EntityType Name="Feedback">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="UsersSkypeId" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="Text" Type="String" Nullable="false" MaxLength="500" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Project">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="Alias" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="ChatSubscriptions" Relationship="evadbModel.FK_ChatSubscriptions_Projects" FromRole="Projects" ToRole="ChatSubscription" />
+          <NavigationProperty Name="Resources" Relationship="evadbModel.FK_Resources_Projects" FromRole="Projects" ToRole="Resources" />
+        </EntityType>
+        <EntityType Name="Resource">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="Type" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="Url" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="Username" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="AdditionalFields" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+          <Property Name="ProjectId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Project" Relationship="evadbModel.FK_Resources_Projects" FromRole="Resources" ToRole="Projects" />
+        </EntityType>
+        <Association Name="FK_ChatSubscriptions_Projects">
+          <End Role="Projects" Type="evadbModel.Project" Multiplicity="1" />
+          <End Role="ChatSubscription" Type="evadbModel.ChatSubscription" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ChatSubscription">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Resources_Projects">
+          <End Role="Projects" Type="evadbModel.Project" Multiplicity="1" />
+          <End Role="Resources" Type="evadbModel.Resource" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Projects">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Resources">
+              <PropertyRef Name="ProjectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="DisabledChat">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="evadbModelStoreContainer" CdmEntityContainer="evadb">
+          <EntitySetMapping Name="ChatSubscriptions">
+            <EntityTypeMapping TypeName="evadbModel.ChatSubscription">
+              <MappingFragment StoreEntitySet="ChatSubscription">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ChatName" ColumnName="ChatName" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Feedbacks">
+            <EntityTypeMapping TypeName="evadbModel.Feedback">
+              <MappingFragment StoreEntitySet="Feedbacks">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UsersSkypeId" ColumnName="UsersSkypeId" />
+                <ScalarProperty Name="Text" ColumnName="Text" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Projects">
+            <EntityTypeMapping TypeName="evadbModel.Project">
+              <MappingFragment StoreEntitySet="Projects">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Alias" ColumnName="Alias" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Resources">
+            <EntityTypeMapping TypeName="evadbModel.Resource">
+              <MappingFragment StoreEntitySet="Resources">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="Url" ColumnName="Url" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="AdditionalFields" ColumnName="AdditionalFields" />
+                <ScalarProperty Name="ProjectId" ColumnName="ProjectId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DisabledChats">
+            <EntityTypeMapping TypeName="evadbModel.DisabledChat">
+              <MappingFragment StoreEntitySet="DisabledChats">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

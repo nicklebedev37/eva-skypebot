@@ -1,0 +1,1345 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/CodeEditing/Intellisense/CodeCompletion/AutoCompleteBasicCompletion/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeEditing/Intellisense/LookupWindow/ShowSummary/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeEditing/Localization/CSharpLocalizationOptions/DontAnalyseVerbatimStrings/@EntryValue">False</s:Boolean>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=DelcarationDoesntConformToNamingConventions/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=LoopCanBeConvertedToQuery/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantAnonymousTypePropertyName/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantNameQualifier/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=RedundantThisQualifier/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SpecifyACultureInStringConversionExplicitly/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuggestUseVarKeywordEverywhere/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=SuggestUseVarKeywordEvident/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ClassCanBeSealed_002EGlobal_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ClassCanBeSealed_002ELocal_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertIfStatementToReturnStatement_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertIfStatementToSwitchStatement_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022ConvertToAutoPropertyWithPrivateSetter_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022InvertIf_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022LoopCanBeConvertedToQuery_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022LoopCanBePartlyConvertedToQuery_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MemberCanBeInternal_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MemberCanBeMadeStatic_002EGlobal_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022MemberCanBeMadeStatic_002ELocal_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantAnonymousTypePropertyName_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantArgumentNameForLiteralExpression_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantThisQualifier_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022RedundantToStringCallForValueType_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SimilarAnonymousTypeNearby_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestBaseTypeForParameter_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestUseVarKeywordEverywhere_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022SuggestUseVarKeywordEvident_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022TryStatementsCanBeMerged_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022UnknownCssVendorExtension_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CConfigurableSeverity_0020Id_003D_0022Xaml_002EBindingWithoutContextReferenceNotResolvedHighlighting_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/CodeIssueFilter/IssueTypesToHide/=_003CStaticSeverity_0020Severity_003D_00222_0022_0020Title_003D_0022Structural_0020Search_0020Hints_0022_0020GroupId_003D_0022StructuralSearch_0022_0020_002F_003E/@EntryIndexedValue">DoHide</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/IndicatorAppearance/IndicatorKind/@EntryValue">BAR</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=IntAppCodeCleanUp/@EntryIndexedValue">&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;Profile name="IntAppCodeCleanUp"&gt;&lt;AspOptimizeRegisterDirectives&gt;False&lt;/AspOptimizeRegisterDirectives&gt;&lt;HtmlReformatCode&gt;False&lt;/HtmlReformatCode&gt;&lt;CSArrangeThisQualifier&gt;True&lt;/CSArrangeThisQualifier&gt;&lt;CSRemoveCodeRedundancies&gt;False&lt;/CSRemoveCodeRedundancies&gt;&lt;CSMakeFieldReadonly&gt;True&lt;/CSMakeFieldReadonly&gt;&lt;CSUseVar&gt;&lt;BehavourStyle&gt;CAN_CHANGE_TO_EXPLICIT&lt;/BehavourStyle&gt;&lt;LocalVariableStyle&gt;ALWAYS_EXPLICIT&lt;/LocalVariableStyle&gt;&lt;ForeachVariableStyle&gt;ALWAYS_EXPLICIT&lt;/ForeachVariableStyle&gt;&lt;/CSUseVar&gt;&lt;CSUpdateFileHeader&gt;False&lt;/CSUpdateFileHeader&gt;&lt;VBOptimizeImports&gt;False&lt;/VBOptimizeImports&gt;&lt;VBShortenReferences&gt;False&lt;/VBShortenReferences&gt;&lt;JsInsertSemicolon&gt;False&lt;/JsInsertSemicolon&gt;&lt;JsReformatCode&gt;False&lt;/JsReformatCode&gt;&lt;CssReformatCode&gt;False&lt;/CssReformatCode&gt;&lt;XMLReformatCode&gt;False&lt;/XMLReformatCode&gt;&lt;CSShortenReferences&gt;True&lt;/CSShortenReferences&gt;&lt;VBReformatCode&gt;False&lt;/VBReformatCode&gt;&lt;CSReformatCode&gt;True&lt;/CSReformatCode&gt;&lt;CSharpFormatDocComments&gt;False&lt;/CSharpFormatDocComments&gt;&lt;CSReorderTypeMembers&gt;True&lt;/CSReorderTypeMembers&gt;&lt;CSUseAutoProperty&gt;True&lt;/CSUseAutoProperty&gt;&lt;StyleCop.Documentation&gt;&lt;SA1600ElementsMustBeDocumented&gt;False&lt;/SA1600ElementsMustBeDocumented&gt;&lt;SA1604ElementDocumentationMustHaveSummary&gt;False&lt;/SA1604ElementDocumentationMustHaveSummary&gt;&lt;SA1609PropertyDocumentationMustHaveValueDocumented&gt;False&lt;/SA1609PropertyDocumentationMustHaveValueDocumented&gt;&lt;SA1611ElementParametersMustBeDocumented&gt;False&lt;/SA1611ElementParametersMustBeDocumented&gt;&lt;SA1615ElementReturnValueMustBeDocumented&gt;False&lt;/SA1615ElementReturnValueMustBeDocumented&gt;&lt;SA1617VoidReturnValueMustNotBeDocumented&gt;False&lt;/SA1617VoidReturnValueMustNotBeDocumented&gt;&lt;SA1618GenericTypeParametersMustBeDocumented&gt;False&lt;/SA1618GenericTypeParametersMustBeDocumented&gt;&lt;SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes&gt;False&lt;/SA1626SingleLineCommentsMustNotUseDocumentationStyleSlashes&gt;&lt;SA1628DocumentationTextMustBeginWithACapitalLetter&gt;False&lt;/SA1628DocumentationTextMustBeginWithACapitalLetter&gt;&lt;SA1629DocumentationTextMustEndWithAPeriod&gt;False&lt;/SA1629DocumentationTextMustEndWithAPeriod&gt;&lt;SA1633SA1641UpdateFileHeader&gt;Ignore&lt;/SA1633SA1641UpdateFileHeader&gt;&lt;SA1639FileHeaderMustHaveSummary&gt;False&lt;/SA1639FileHeaderMustHaveSummary&gt;&lt;SA1642ConstructorSummaryDocumentationMustBeginWithStandardText&gt;False&lt;/SA1642ConstructorSummaryDocumentationMustBeginWithStandardText&gt;&lt;SA1643DestructorSummaryDocumentationMustBeginWithStandardText&gt;False&lt;/SA1643DestructorSummaryDocumentationMustBeginWithStandardText&gt;&lt;SA1644DocumentationHeadersMustNotContainBlankLines&gt;False&lt;/SA1644DocumentationHeadersMustNotContainBlankLines&gt;&lt;/StyleCop.Documentation&gt;&lt;CSOptimizeUsings&gt;&lt;OptimizeUsings&gt;True&lt;/OptimizeUsings&gt;&lt;EmbraceInRegion&gt;False&lt;/EmbraceInRegion&gt;&lt;RegionName&gt;&lt;/RegionName&gt;&lt;/CSOptimizeUsings&gt;&lt;StyleCop.Ordering&gt;&lt;AlphabeticalUsingDirectives&gt;Alphabetical&lt;/AlphabeticalUsingDirectives&gt;&lt;ExpandUsingDirectives&gt;Ignore&lt;/ExpandUsingDirectives&gt;&lt;SA1212PropertyAccessorsMustFollowOrder&gt;True&lt;/SA1212PropertyAccessorsMustFollowOrder&gt;&lt;SA1213EventAccessorsMustFollowOrder&gt;True&lt;/SA1213EventAccessorsMustFollowOrder&gt;&lt;/StyleCop.Ordering&gt;&lt;StyleCop.Layout&gt;&lt;SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine&gt;True&lt;/SA1500CurlyBracketsForMultiLineStatementsMustNotShareLine&gt;&lt;SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine&gt;True&lt;/SA1509OpeningCurlyBracketsMustNotBePrecededByBlankLine&gt;&lt;SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine&gt;True&lt;/SA1510ChainedStatementBlocksMustNotBePrecededByBlankLine&gt;&lt;SA1511WhileDoFooterMustNotBePrecededByBlankLine&gt;True&lt;/SA1511WhileDoFooterMustNotBePrecededByBlankLine&gt;&lt;SA1512SingleLineCommentsMustNotBeFollowedByBlankLine&gt;False&lt;/SA1512SingleLineCommentsMustNotBeFollowedByBlankLine&gt;&lt;SA1513ClosingCurlyBracketMustBeFollowedByBlankLine&gt;True&lt;/SA1513ClosingCurlyBracketMustBeFollowedByBlankLine&gt;&lt;SA1514ElementDocumentationHeaderMustBePrecededByBlankLine&gt;True&lt;/SA1514ElementDocumentationHeaderMustBePrecededByBlankLine&gt;&lt;SA1515SingleLineCommentMustBeProceededByBlankLine&gt;True&lt;/SA1515SingleLineCommentMustBeProceededByBlankLine&gt;&lt;/StyleCop.Layout&gt;&lt;StyleCop.Readability&gt;&lt;SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists&gt;True&lt;/SA1100DoNotPrefixCallsWithBaseUnlessLocalImplementationExists&gt;&lt;SA1106CodeMustNotContainEmptyStatements&gt;True&lt;/SA1106CodeMustNotContainEmptyStatements&gt;&lt;SA1108BlockStatementsMustNotContainEmbeddedComments&gt;True&lt;/SA1108BlockStatementsMustNotContainEmbeddedComments&gt;&lt;SA1109BlockStatementsMustNotContainEmbeddedRegions&gt;True&lt;/SA1109BlockStatementsMustNotContainEmbeddedRegions&gt;&lt;SA1120CommentsMustContainText&gt;False&lt;/SA1120CommentsMustContainText&gt;&lt;SA1121UseBuiltInTypeAlias&gt;True&lt;/SA1121UseBuiltInTypeAlias&gt;&lt;SA1122UseStringEmptyForEmptyStrings&gt;True&lt;/SA1122UseStringEmptyForEmptyStrings&gt;&lt;SA1123DoNotPlaceRegionsWithinElements&gt;False&lt;/SA1123DoNotPlaceRegionsWithinElements&gt;&lt;SA1124CodeMustNotContainEmptyRegions&gt;True&lt;/SA1124CodeMustNotContainEmptyRegions&gt;&lt;/StyleCop.Readability&gt;&lt;/Profile&gt;</s:String>
+	
+	
+	
+	<s:String x:Key="/Default/CodeStyle/CodeCleanup/RecentlyUsedProfile/@EntryValue">IntAppCodeCleanUp</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeCleanup/SilentCleanupProfile/@EntryValue">IntAppCodeCleanUp</s:String>
+	
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/ALIGN_MULTILINE_ARGUMENT/@EntryValue">False</s:Boolean>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AROUND_SINGLE_LINE_AUTO_PROPERTY/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AROUND_SINGLE_LINE_FIELD/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AROUND_SINGLE_LINE_INVOCABLE/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_AROUND_SINGLE_LINE_PROPERTY/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/BLANK_LINES_BETWEEN_USING_GROUPS/@EntryValue">1</s:Int64>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_ATTRIBUTE_STYLE/@EntryValue">SEPARATE</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_FIXED_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_FOR_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_FOREACH_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_IFELSE_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/FORCE_WHILE_BRACES_STYLE/@EntryValue">ALWAYS_ADD</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INDENT_ANONYMOUS_METHOD_BLOCK/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/INDENT_EMBRACED_INITIALIZER_BLOCK/@EntryValue">False</s:Boolean>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_BLANK_LINES_IN_CODE/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/KEEP_BLANK_LINES_IN_DECLARATIONS/@EntryValue">1</s:Int64>
+	
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/MODIFIERS_ORDER/@EntryValue">public protected internal private static new abstract virtual override sealed readonly extern unsafe volatile async</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_CONSTRUCTOR_INITIALIZER_ON_SAME_LINE/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_FIELD_ATTRIBUTE_ON_SAME_LINE/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_SIMPLE_ACCESSOR_ON_SINGLE_LINE/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_TYPE_CONSTRAINTS_ON_SAME_LINE/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/PLACE_WHILE_ON_NEW_LINE/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/REDUNDANT_THIS_QUALIFIER_STYLE/@EntryValue">ALWAYS_USE</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SIMPLE_EMBEDDED_STATEMENT_STYLE/@EntryValue">ON_SINGLE_LINE</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_AFTER_TYPECAST_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_AROUND_MULTIPLICATIVE_OP/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_SIZEOF_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_BEFORE_TYPEOF_PARENTHESES/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/SPACE_WITHIN_SINGLE_LINE_ARRAY_INITIALIZER_BRACES/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/STICK_COMMENT/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_AFTER_DECLARATION_LPAR/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_AFTER_INVOCATION_LPAR/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_ARGUMENTS_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_BEFORE_BINARY_OPSIGN/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_BEFORE_FIRST_TYPE_PARAMETER_CONSTRAINT/@EntryValue">True</s:Boolean>
+	
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_EXTENDS_LIST_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
+	<s:Int64 x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_LIMIT/@EntryValue">120</s:Int64>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CSharpFormat/WRAP_PARAMETERS_STYLE/@EntryValue">CHOP_IF_LONG</s:String>
+	<s:String x:Key="/Default/CodeStyle/CodeFormatting/CssFormatter/BRACE_STYLE/@EntryValue">NEXT_LINE</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/JavaScriptCodeFormatting/ALIGN_MULTIPLE_DECLARATION/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/CodeFormatting/JavaScriptCodeFormatting/JavaScriptFormatOther/ALIGN_MULTIPLE_DECLARATION/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/CSharpMemberOrderPattern/CustomPattern/@EntryValue">&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;!-- Last updated 08.01.2012 --&gt;&#xD;
+&lt;Patterns xmlns="urn:shemas-jetbrains-com:member-reordering-patterns"&gt;&#xD;
+&#xD;
+  &lt;!-- Do not reorder COM interfaces --&gt;&#xD;
+  &lt;Pattern&gt;&#xD;
+    &lt;Match&gt;&#xD;
+      &lt;And Weight="2000"&gt;&#xD;
+        &lt;Kind Is="interface"/&gt;&#xD;
+        &lt;Or&gt;&#xD;
+          &lt;HasAttribute CLRName="System.Runtime.InteropServices.InterfaceTypeAttribute"/&gt;&#xD;
+          &lt;HasAttribute CLRName="System.Runtime.InteropServices.ComImport"/&gt;&#xD;
+        &lt;/Or&gt;&#xD;
+      &lt;/And&gt;&#xD;
+    &lt;/Match&gt;&#xD;
+  &lt;/Pattern&gt;&#xD;
+&#xD;
+  &lt;!-- Do not reorder P/Invoke structs --&gt;&#xD;
+  &lt;Pattern&gt;&#xD;
+    &lt;Match&gt;&#xD;
+      &lt;And Weight="2000"&gt;&#xD;
+        &lt;Or&gt;&#xD;
+          &lt;Kind Is="struct"/&gt;&#xD;
+          &lt;Kind Is="class"/&gt;&#xD;
+        &lt;/Or&gt;&#xD;
+        &lt;HasAttribute CLRName="System.Runtime.InteropServices.StructLayoutAttribute"/&gt;&#xD;
+      &lt;/And&gt;&#xD;
+    &lt;/Match&gt;&#xD;
+  &lt;/Pattern&gt;&#xD;
+&#xD;
+  &lt;!-- Do not reorder P/Invoke classes (called xxxNativeMethods) --&gt;&#xD;
+  &lt;Pattern&gt;&#xD;
+    &lt;Match&gt;&#xD;
+      &lt;And Weight="2000"&gt;&#xD;
+        &lt;Kind Is="class"/&gt;&#xD;
+        &lt;Name Is=".*NativeMethods" /&gt;&#xD;
+      &lt;/And&gt;&#xD;
+    &lt;/Match&gt;&#xD;
+  &lt;/Pattern&gt;&#xD;
+&#xD;
+  &lt;!-- StyleCop pattern --&gt;&#xD;
+  &lt;Pattern RemoveAllRegions="true"&gt;&#xD;
+    &lt;Match&gt;&#xD;
+      &lt;Or Weight="1000" &gt;&#xD;
+        &lt;Kind Is="class" /&gt;&#xD;
+        &lt;Kind Is="struct" /&gt;&#xD;
+        &lt;Kind Is="interface"/&gt;&#xD;
+      &lt;/Or&gt;&#xD;
+    &lt;/Match&gt;&#xD;
+&#xD;
+    &lt;!-- constants and fields --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Or&gt;&#xD;
+          &lt;Kind Is="constant"/&gt;&#xD;
+          &lt;Kind Is="field"/&gt;&#xD;
+        &lt;/Or&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private"/&gt;&#xD;
+        &lt;Kind Order="constant field"/&gt;&#xD;
+        &lt;Readonly/&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Constants and Fields"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- constructors and destructors --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Or Weight="200"&gt;&#xD;
+          &lt;Kind Is="constructor"/&gt;&#xD;
+          &lt;Kind Is="destructor"/&gt;&#xD;
+        &lt;/Or&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Kind Order="constructor destructor"/&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private"/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Constructors and Destructors"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- delegates --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="delegate"/&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Static /&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Delegates"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- public events --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Kind Is="event"/&gt;&#xD;
+          &lt;Access Is="public"/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public" /&gt;&#xD;
+        &lt;Static /&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Public Events"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- interface events --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Kind Is="event"/&gt;&#xD;
+          &lt;ImplementsInterface/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;ImplementsInterface Immediate="true"/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Explicit Interface Events" /&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- other events --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="event"/&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Static /&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Events"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- enum --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="enum"/&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Enums"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- interfaces --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="interface" /&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Interfaces"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- public properties --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Kind Is="property"/&gt;&#xD;
+          &lt;Access Is="public"/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public"/&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Public Properties"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- interface properties --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Kind Is="property"/&gt;&#xD;
+          &lt;ImplementsInterface/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;ImplementsInterface Immediate="true"/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Explicit Interface Properties" /&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- other properties --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="property"/&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private"/&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Properties"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- public indexers --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Kind Is="indexer" Weight="1000" /&gt;&#xD;
+          &lt;Access Is="public"/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public" /&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Public Indexers"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- interface indexers --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Kind Is="indexer" Weight="1000"/&gt;&#xD;
+          &lt;ImplementsInterface/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;ImplementsInterface Immediate="true"/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Explicit Interface Indexers" /&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- other indexers --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="indexer" Weight="1000" /&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Indexers"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- public methods (includes operators) --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+           &lt;Or&gt;&#xD;
+             &lt;Kind Is="method"/&gt;&#xD;
+             &lt;Kind Is="operator"/&gt;&#xD;
+           &lt;/Or&gt;&#xD;
+          &lt;Access Is="public"/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public"/&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Public Methods and Operators"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- interface methods --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;And&gt;&#xD;
+          &lt;Kind Is="method"/&gt;&#xD;
+          &lt;ImplementsInterface/&gt;&#xD;
+        &lt;/And&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;ImplementsInterface Immediate="true"/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Explicit Interface Methods" /&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- other methods --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="method"/&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private"/&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Methods"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- operators --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="operator"/&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Static/&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+      &lt;Group Region="Operators"/&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- Nested structs --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="struct"&#xD;
+              Weight="600" /&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Static /&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- Nested classes --&gt;&#xD;
+    &lt;Entry&gt;&#xD;
+      &lt;Match&gt;&#xD;
+        &lt;Kind Is="class"&#xD;
+              Weight="700" /&gt;&#xD;
+      &lt;/Match&gt;&#xD;
+      &lt;Sort&gt;&#xD;
+        &lt;Static /&gt;&#xD;
+        &lt;Access Order="public internal protected-internal protected private" /&gt;&#xD;
+        &lt;Name/&gt;&#xD;
+      &lt;/Sort&gt;&#xD;
+    &lt;/Entry&gt;&#xD;
+&#xD;
+    &lt;!-- all other members --&gt;&#xD;
+    &lt;Entry/&gt;&#xD;
+&#xD;
+  &lt;/Pattern&gt;&#xD;
+&lt;/Patterns&gt;</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/CSharpUsing/AddImportsToDeepestScope/@EntryValue">True</s:Boolean>
+	
+	<s:Boolean x:Key="/Default/CodeStyle/CSharpUsing/QualifiedUsingAtNestedScope/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/CodeStyle/Generate/=Implementations/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/Generate/=Implementations/Options/=WrapInRegion/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/CodeStyle/Generate/=Implementations/Options/=XmlDocumentation/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/CodeStyle/Generate/=Overrides/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/CodeStyle/Generate/=Overrides/Options/=WrapInRegion/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/CodeStyle/Generate/=Overrides/Options/=XmlDocumentation/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/Abbreviations/=API/@EntryIndexedValue">API</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/EventHandlerPatternLong/@EntryValue">$object$_On$event$</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/ExceptionName/@EntryValue"></s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=Constants/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=EnumMember/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=Interfaces/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="I" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=LocalConstants/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=Locals/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=MethodPropertyEvent/@EntryIndexedValue">&lt;Policy Inspect="False" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=Other/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=Parameters/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateConstants/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateInstanceFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateStaticFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PrivateStaticReadonly/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=PublicFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=StaticReadonly/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=TypeParameters/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="T" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/PredefinedNamingRules/=TypesAndNamespaces/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/EventHandlerPatternLong/@EntryValue">$object$_On$event$</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/ExceptionName/@EntryValue"></s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=Constants/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=EnumMember/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=Interfaces/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="I" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=LocalConstants/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=Locals/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=MethodPropertyEvent/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=Other/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=Parameters/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=PrivateConstants/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=PrivateInstanceFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=PrivateStaticFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="aaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=PrivateStaticReadonly/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=PublicFields/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=StaticReadonly/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=TypeParameters/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="T" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/VBNaming/PredefinedNamingRules/=TypesAndNamespaces/@EntryIndexedValue">&lt;Policy Inspect="True" Prefix="" Suffix="" Style="AaBb" /&gt;</s:String>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002EJavaScript_002ECodeStyle_002ESettingsUpgrade_002EJsCodeFormatterSettingsUpgrader/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/FilterSettingsManager/AttributeFilterXml/@EntryValue">&lt;data /&gt;</s:String>
+	<s:String x:Key="/Default/FilterSettingsManager/CoverageFilterXml/@EntryValue">&lt;data&gt;&lt;IncludeFilters /&gt;&lt;ExcludeFilters /&gt;&lt;/data&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Field/=name/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Field/=parameters/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Field/=parameters/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Shortcut/@EntryValue">functionWithDoc</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=03BF01D66AFFD149B04632652DD08EB7/Text/@EntryValue">function $name$($parameters$){
+    /// &lt;summary&gt;&#xD;
+    /// $END$&#xD;
+    /// &lt;/summary&gt;&#xD;
+&#xD;
+    
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Description/@EntryValue">Creates empty database unit test.</s:String>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Field/=UnitTestName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Field/=UnitTestName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Shortcut/@EntryValue">dbtestmethod</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13A78696618A4C4BA941A240C6DC299E/Text/@EntryValue">[Test]&#xD;
+[Category(UnitTestCategory.DatabaseUnitTest)]&#xD;
+public void $UnitTestName$()&#xD;
+{&#xD;
+    $END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Categories/=BusinessLayer/@EntryIndexedValue">BusinessLayer</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/CustomProperties/=FileName/@EntryIndexedValue">Repository</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Description/@EntryValue">Repository</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=ClassName/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=ClassName/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=ClassName/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=ClassName/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=TBusinessModel/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=TBusinessModel/Expression/@EntryValue">completeType()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=TBusinessModel/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=TDataModel/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=TDataModel/Expression/@EntryValue">completeType()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Field/=TDataModel/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14AA32BFE0E2EC4084B209686285E73A/Text/@EntryValue">namespace Com.IntApp.TBLogic.Reports.DataAccess&#xD;
+{&#xD;
+    using System;&#xD;
+    using System.Linq.Expressions;&#xD;
+&#xD;
+    using Com.IntApp.Infrastructure.BusinessLayer;&#xD;
+    using Com.IntApp.Infrastructure.DataAccess;&#xD;
+    using Com.IntApp.TBLogic.DataAccess;&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Represents repository for persisting &lt;see cref="$TBusinessModel$"/&gt; objects.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;seealso cref="IRepository{TBusinessModel}"/&gt;&#xD;
+    /// &lt;seealso cref="RepositoryBase{TBusinessModel, TDataModel}"/&gt;&#xD;
+    public class $ClassName$ : RepositoryBase&lt;$TBusinessModel$, $TDataModel$&gt;&#xD;
+    {&#xD;
+        #region Constructors and Destructors&#xD;
+&#xD;
+        /// &lt;summary&gt;&#xD;
+        /// Initializes a new instance of the &lt;see cref="$ClassName$" /&gt; class.&#xD;
+        /// &lt;/summary&gt;&#xD;
+        /// &lt;param name="dataContext"&gt;The data context to use.&lt;/param&gt;&#xD;
+        public $ClassName$(IDataContextWrapper dataContext)&#xD;
+            : base(dataContext)&#xD;
+        {&#xD;
+        }&#xD;
+&#xD;
+        #endregion&#xD;
+&#xD;
+        #region Methods&#xD;
+&#xD;
+        /// &lt;summary&gt;&#xD;
+        /// Maps database model of the &lt;see cref="$TBusinessModel$"/&gt; type to business object&#xD;
+        /// of the &lt;see cref="REPORT_FIELD"/&gt;.&#xD;
+        /// &lt;/summary&gt;&#xD;
+        /// &lt;returns&gt;A converted business object.&lt;/returns&gt;&#xD;
+        protected override Expression&lt;Func&lt;$TDataModel$, $TBusinessModel$&gt;&gt; GetConverter()&#xD;
+        {&#xD;
+            return entity =&gt; new $TBusinessModel$&#xD;
+                {&#xD;
+                    Id = entity.Id,&#xD;
+                    // TODO: Complete Field initialization logic&#xD;
+                    $END$&#xD;
+                };&#xD;
+        }&#xD;
+&#xD;
+        /// &lt;summary&gt;&#xD;
+        /// Updates the model entity with properties specified in business entity.&#xD;
+        /// &lt;/summary&gt;&#xD;
+        /// &lt;param name="dbEntity"&gt;The database model entity to update.&lt;/param&gt;&#xD;
+        /// &lt;param name="entity"&gt;The business entity to get values from.&lt;/param&gt;&#xD;
+        protected override void UpdateModelEntity($TDataModel$ dbEntity, $TBusinessModel$ entity)&#xD;
+        {&#xD;
+            dbEntity.Id = entity.Id;&#xD;
+            // TODO: Complete field updating logic&#xD;
+        }&#xD;
+&#xD;
+        #endregion&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Description/@EntryValue">Creates JavaScript Enumeration using </s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Field/=ENUMNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Field/=ENUMNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Field/=NAMESPACE/Expression/@EntryValue">constant("TBWebApplication")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Shortcut/@EntryValue">ajaxEnum</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=16EE557553D689478FA7FB0B42BF66E2/Text/@EntryValue">$NAMESPACE$.$ENUMNAME$ = function () {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// TODO: put comments HERE.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;field name="Field1" type="Number" integer="true"&gt;&#xD;
+    /// TODO: put comments HERE.&#xD;
+    /// &lt;/field&gt;&#xD;
+&#xD;
+    throw Error.invalidOperation();&#xD;
+};&#xD;
+&#xD;
+$NAMESPACE$.$ENUMNAME$.prototype =&#xD;
+{&#xD;
+    Field1: 0&#xD;
+    $END$&#xD;
+};&#xD;
+&#xD;
+$NAMESPACE$.$ENUMNAME$.registerEnum("$NAMESPACE$.$ENUMNAME$", false);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Categories/=ASP_002ENET_0020AJAX/@EntryIndexedValue">ASP.NET AJAX</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/CustomProperties/=Extension/@EntryIndexedValue">js</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/CustomProperties/=FileName/@EntryIndexedValue">ScriptPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Description/@EntryValue">ASP.NET AJAX ScriptPage</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Field/=CLASSNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Field/=CLASSNAME/Order/@EntryValue">0</s:Int64>
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Field/=Web/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Field/=Web/Expression/@EntryValue">constant("Web")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Field/=Web/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Scope/=0A12C11AC0ACCA4E921B6B2CEE180C57/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Scope/=0A12C11AC0ACCA4E921B6B2CEE180C57/Type/@EntryValue">InAnyWebProject</s:String>
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=17F50C82177880458D910DE5FA969F8A/Text/@EntryValue">/// &lt;reference path="..\JavaScript Intellisense\AjaxControlToolkit\MicrosoftAjax.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\AjaxControlToolkit\MicrosoftAjaxWebForms.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\jquery-1.7.2-vsdoc.js" /&gt;&#xD;
+&#xD;
+Type.registerNamespace('TB.Web');&#xD;
+&#xD;
+TB.Web.$CLASSNAME$ = function TB$Web$$CLASSNAME$() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Initializes a new instance of the $CLASSNAME$ class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="element" type="Sys.UI.DomElement" domElement="true"&gt;&#xD;
+    /// Element to associate the behavior with.&#xD;
+    /// &lt;/param&gt;&#xD;
+&#xD;
+    TB.Web.$CLASSNAME$.initializeBase(this);&#xD;
+&#xD;
+};&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Initialize/dispose methods.&#xD;
+&#xD;
+function TB$Web$$CLASSNAME$$initialize() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Initializes the component.&#xD;
+    /// &lt;/summary&gt;&#xD;
+&#xD;
+    TB.Web.$CLASSNAME$.callBaseMethod(this, 'initialize');&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function TB$Web$$CLASSNAME$$_initializeControlsReferences() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Registers reference to controls which can be udpated during partial postback.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function TB$Web$$CLASSNAME$$_disposeControlsReferences() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Frees this control properties, that reference the DOM controls.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function TB$Web$$CLASSNAME$$_registerControlsHandlers() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Registers page controls client event handlers.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function TB$Web$$CLASSNAME$$_unregisterControlsHandlers() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Unregisters page controls client event handlers.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Public Methods&#xD;
+&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Methods&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Properties&#xD;
+&#xD;
+TB.Web.$CLASSNAME$.prototype =&#xD;
+{&#xD;
+    // Initialize/Dispose methods&#xD;
+    initialize: TB$Web$$CLASSNAME$$initialize,&#xD;
+&#xD;
+    // Override methods&#xD;
+    _initializeControlsReferences: TB$Web$$CLASSNAME$$_initializeControlsReferences,&#xD;
+    _disposeControlsReferences: TB$Web$$CLASSNAME$$_disposeControlsReferences,&#xD;
+    _registerControlsHandlers: TB$Web$$CLASSNAME$$_registerControlsHandlers,&#xD;
+    _unregisterControlsHandlers: TB$Web$$CLASSNAME$$_unregisterControlsHandlers&#xD;
+&#xD;
+    // Public Methods&#xD;
+&#xD;
+    // Methods&#xD;
+&#xD;
+    // Properties&#xD;
+};&#xD;
+&#xD;
+TB.Web.$CLASSNAME$.registerClass("TB.Web.$CLASSNAME$", Web.Common.Controls.ScriptPage);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Description/@EntryValue">Creates event definition to use in ASP.NET AJAX classes.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Field/=EventName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Field/=EventName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Shortcut/@EntryValue">ajaxEvent</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=196C1246576B5042B255F1C39664D89D/Text/@EntryValue">function add_$EventName$(handler) {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Add an event handler for the $EventName$ event.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="handler" type="Function" mayBeNull="false"&gt;&#xD;
+    /// Event handler.&#xD;
+    /// &lt;/param&gt;&#xD;
+&#xD;
+    this.get_events().addHandler('$EventName$', handler);&#xD;
+}&#xD;
+function remove_$EventName$(handler) {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Remove an event handler from the $EventName$ event&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="handler" type="Function" mayBeNull="false"&gt;&#xD;
+    /// Event handler.&#xD;
+    /// &lt;/param&gt;&#xD;
+&#xD;
+    this.get_events().removeHandler('$EventName$', handler);&#xD;
+}&#xD;
+function raise_$EventName$(eventArgs) {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Raise the $EventName$ event.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="eventArgs" type="Sys.EventArgs" mayBeNull="false"&gt;&#xD;
+    /// Event arguments for the $EventName$ event.&#xD;
+    /// &lt;/param&gt;&#xD;
+&#xD;
+    var handler = this.get_events().getHandler('$EventName$');&#xD;
+    if (handler) {&#xD;
+        handler(this, eventArgs);&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Categories/=UnitTest_0020Framework/@EntryIndexedValue">UnitTest Framework</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/CustomProperties/=FileName/@EntryIndexedValue">DatabaseUnitTest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Description/@EntryValue">DatabaseUnitTest</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=CLASS/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1C49C2BDAE9551488D588CFBCB9529B5/Text/@EntryValue">$HEADER$namespace $NAMESPACE$&#xD;
+{&#xD;
+using Com.IntApp.Tests;&#xD;
+using Com.IntApp.Time.Test;&#xD;
+&#xD;
+using NUnit.Framework;&#xD;
+&#xD;
+  /// &lt;summary&gt;&#xD;
+  /// Implements tests to verify work of the &lt;see cref="TODO:ClassToVerify"/&gt; class.&#xD;
+  /// &lt;/summary&gt;&#xD;
+  /// &lt;remarks&gt;&#xD;
+  /// Some of the unit tests in this Test Fixture can require to access database to run successfully.&#xD;
+  /// &lt;/remarks&gt;&#xD;
+  public class $CLASS$ : TBDatabaseTestFixture&#xD;
+  {$END$}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Categories/=ASP_002ENET_0020AJAX/@EntryIndexedValue">ASP.NET AJAX</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/CustomProperties/=Extension/@EntryIndexedValue">js</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/CustomProperties/=FileName/@EntryIndexedValue">ScriptPage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Description/@EntryValue">ASP.NET AJAX Script Page</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Field/=CLASSNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Field/=CLASSNAME/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Field/=CLASSNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Field/=NAMESPACE/Expression/@EntryValue">constant("TBWebApplication$Pages$")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3DCC26005907E14690397EBDEE18EB5B/Text/@EntryValue">/// &lt;reference path="..\JavaScript Intellisense\MicrosoftAjax.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\MicrosoftAjaxWebForms.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\jquery-1.7.2-vsdoc.js" /&gt;&#xD;
+&#xD;
+Type.registerNamespace('TBWebApplication.Pages');&#xD;
+&#xD;
+TBWebApplication.Pages.$CLASSNAME$ = function $NAMESPACE$$CLASSNAME$() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Initializes a new instance of the $CLASSNAME$ class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+&#xD;
+    TBWebApplication.Pages.$CLASSNAME$.initializeBase(this);&#xD;
+&#xD;
+    $END$&#xD;
+};&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Initialize/dispose methods.&#xD;
+&#xD;
+function $NAMESPACE$$CLASSNAME$initialize() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Initializes the component.&#xD;
+    /// &lt;/summary&gt;&#xD;
+&#xD;
+    TBWebApplication.Pages.$CLASSNAME$.callBaseMethod(this, 'initialize');&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function $NAMESPACE$$CLASSNAME$_initializeControlsReferences() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Registers reference to controls which can be updated during partial postback.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function $NAMESPACE$$CLASSNAME$_disposeControlsReferences() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Frees this control properties, that reference the DOM controls.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function $NAMESPACE$$CLASSNAME$_registerControlsHandlers() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Registers page controls client event handlers.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+function $NAMESPACE$$CLASSNAME$_unregisterControlsHandlers() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Unregisters page controls client event handlers.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;remark&gt;&#xD;
+    /// This method will be called after each partial postback on current page.&#xD;
+    /// &lt;/remark&gt;&#xD;
+&#xD;
+}&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Public Methods&#xD;
+&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Methods&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Properties&#xD;
+&#xD;
+TBWebApplication.Pages.$CLASSNAME$.prototype =&#xD;
+{&#xD;
+    // Initialize/Dispose methods&#xD;
+    initialize: $NAMESPACE$$CLASSNAME$initialize,&#xD;
+&#xD;
+    // Override methods&#xD;
+    _initializeControlsReferences: $NAMESPACE$$CLASSNAME$_initializeControlsReferences,&#xD;
+    _disposeControlsReferences: $NAMESPACE$$CLASSNAME$_disposeControlsReferences,&#xD;
+    _registerControlsHandlers: $NAMESPACE$$CLASSNAME$_registerControlsHandlers,&#xD;
+    _unregisterControlsHandlers: $NAMESPACE$$CLASSNAME$_unregisterControlsHandlers&#xD;
+&#xD;
+    // Public Methods&#xD;
+&#xD;
+    // Methods&#xD;
+&#xD;
+    // Properties&#xD;
+};&#xD;
+&#xD;
+TBWebApplication.Pages.$CLASSNAME$.registerClass("TBWebApplication.Pages.$CLASSNAME$", Web.Common.Controls.ScriptPage);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/Description/@EntryValue">Inserts code to valid method arguments.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/Shortcut/@EntryValue">validateParams</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=45502AA2E424114BAA859CD6E2500AEB/Text/@EntryValue">///#DEBUG&#xD;
+var e = Function.validateParameters(arguments, [&#xD;
+    $END$&#xD;
+]);&#xD;
+if (e) throw e;&#xD;
+///#ENDDEBUG&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Categories/=UnitTest_0020Framework/@EntryIndexedValue">UnitTest Framework</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/CustomProperties/=FileName/@EntryIndexedValue">PureUnitTest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Description/@EntryValue">PureUnitTest</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=CLASS/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=HEADER/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4DEE982B7656DB409604FC725F03B540/Text/@EntryValue">$HEADER$namespace $NAMESPACE$&#xD;
+{&#xD;
+using Com.IntApp.Tests;&#xD;
+&#xD;
+using NUnit.Framework;&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Implements tests to verify work of the &lt;see cref="TODO:ClassToVerify"/&gt; class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    public class $CLASS$ : BaseTestFixture&#xD;
+    {$END$}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Categories/=UnitTest_0020Framework/@EntryIndexedValue">UnitTest Framework</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/CustomProperties/=FileName/@EntryIndexedValue">UnitTestAssemblyManager</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Description/@EntryValue">UnitTestAssemblyManager</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7660E030D72BDC4D85DBA2025248C91C/Text/@EntryValue">using Com.IntApp.Tests;&#xD;
+using Com.IntApp.Time.Test;&#xD;
+&#xD;
+using NUnit.Framework;&#xD;
+&#xD;
+// Note that to make this test assembly to create database before running any &#xD;
+// test in assembly we need to uncomment and specify properties of the attribute in the following line:&#xD;
+// [assembly: DatabaseUnitTestAssembly("$NAMESPACE$.install.sql", databaseName: "TimeVaultForUnitTesting")]&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+/// Implements manager which responsive for global initialization of the unit test environment. &#xD;
+/// Currently implementation creates database which is required to successfully run database unit tests.&#xD;
+/// &lt;/summary&gt;&#xD;
+[SetUpFixture]&#xD;
+public sealed class UnitTestAssemblyManager : TBUnitTestAssemblyManager&#xD;
+{&#xD;
+    #region Public Methods and Operators&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// This method will be called by nUnit runner when execution of the all unit test (in current executing assembly) is completed.&#xD;
+    /// Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    [TearDown]&#xD;
+    public override void OnUnitTestSessionEnd()&#xD;
+    {&#xD;
+        base.OnUnitTestSessionEnd();&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Called before any test is run in current executing assembly which contains unit tests.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    [SetUp]&#xD;
+    public override void OnUnitTestSessionStart()&#xD;
+    {&#xD;
+        base.OnUnitTestSessionStart();&#xD;
+    }&#xD;
+&#xD;
+    #endregion&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Categories/=ASP_002ENET_0020AJAX/@EntryIndexedValue">ASP.NET AJAX</s:String>
+	
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/CustomProperties/=Extension/@EntryIndexedValue">js</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/CustomProperties/=FileName/@EntryIndexedValue">Enum</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Description/@EntryValue">ASP.NET AJAX Enumeration</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Field/=ENUMNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Field/=ENUMNAME/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Field/=ENUMNAME/InitialRange/@EntryValue">1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Field/=ENUMNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=808A9CC242C217458589D54D976021F4/Text/@EntryValue">/// &lt;reference path="..\JavaScript Intellisense\AjaxControlToolkit\MicrosoftAjax.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\AjaxControlToolkit\MicrosoftAjaxWebForms.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\jquery-1.7.2-vsdoc.js" /&gt;&#xD;
+&#xD;
+Type.registerNamespace('TBWebApplication$NAMESPACE$');&#xD;
+&#xD;
+TBWebApplication$NAMESPACE$.$ENUMNAME$ = function () {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// TODO: put comments HERE.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;field name="Field1" type="Number" integer="true"&gt;&#xD;
+    /// TODO: put comments HERE.&#xD;
+    /// &lt;/field&gt;&#xD;
+&#xD;
+    throw Error.invalidOperation();&#xD;
+};&#xD;
+&#xD;
+TBWebApplication$NAMESPACE$.$ENUMNAME$.prototype =&#xD;
+{&#xD;
+    Field1: 0&#xD;
+};&#xD;
+&#xD;
+TBWebApplication$NAMESPACE$.$ENUMNAME$.registerEnum("TBWebApplication$NAMESPACE$.$ENUMNAME$", false);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Field/=EVENTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Field/=EVENTNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Shortcut/@EntryValue">functionAjaxEventHandler</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8219C565DF945F44899DA4A5AC545F0F/Text/@EntryValue">function $NAME$(eventObj) { &#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Handler the '$EVENTNAME$' event of the target control.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="eventObj" type="Sys.UI.DomEvent"&gt;&#xD;
+    /// Event info.&#xD;
+    /// &lt;/param&gt;&#xD;
+    &#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Categories/=ASP_002ENET_0020AJAX/@EntryIndexedValue">ASP.NET AJAX</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/CustomProperties/=Extension/@EntryIndexedValue">js</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/CustomProperties/=FileName/@EntryIndexedValue">ClientSideClass</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Description/@EntryValue">ASP.NET AJAX Class</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Field/=CLASSNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Field/=CLASSNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Field/=NAMESPACE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8E59FE8FDECFFB439B37A95205312196/Text/@EntryValue">/// &lt;reference path="..\JavaScript Intellisense\AjaxControlToolkit\MicrosoftAjax.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\AjaxControlToolkit\MicrosoftAjaxWebForms.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\jquery-1.7.2-vsdoc.js" /&gt;&#xD;
+&#xD;
+Type.registerNamespace('$NAMESPACE$');&#xD;
+&#xD;
+$NAMESPACE$.$CLASSNAME$ = function NameSpace$$CLASSNAME$() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Initializes a new instance of the $CLASSNAME$ class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+&#xD;
+    $NAMESPACE$.$CLASSNAME$.initializeBase(this, []);&#xD;
+};&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Public Methods&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Methods&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Properties&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Events&#xD;
+&#xD;
+$NAMESPACE$.$CLASSNAME$.prototype =&#xD;
+{&#xD;
+    // Public methods&#xD;
+&#xD;
+    // Methods&#xD;
+&#xD;
+    // Properties&#xD;
+&#xD;
+    // Events&#xD;
+};&#xD;
+&#xD;
+$NAMESPACE$.$CLASSNAME$.registerClass("$NAMESPACE$.$CLASSNAME$");</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Description/@EntryValue">Adds statement to validate method argument of the Integer type.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Field/=ArgumentName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Field/=ArgumentName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Shortcut/@EntryValue">validateInt</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=951877E35B9DBE4EA6C502A6B83F0C8E/Text/@EntryValue">{ name: "$ArgumentName$", type: Number, integer: true, mayBeNull: false, optional: false }$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Categories/=ASP_002ENET_0020AJAX/@EntryIndexedValue">ASP.NET AJAX</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/CustomProperties/=Extension/@EntryIndexedValue">js</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/CustomProperties/=FileName/@EntryIndexedValue">ScriptUserControl</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Description/@EntryValue">ASP.NET AJAX Script User Control</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Field/=CLASSNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Field/=CLASSNAME/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Field/=CLASSNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Field/=NAMESPACE/Expression/@EntryValue">constant("TBWebApplication$Controls$")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4D0911FBE2E14FB9A4452CD6C5CB2F/Text/@EntryValue">/// &lt;reference path="..\JavaScript Intellisense\MicrosoftAjax.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\MicrosoftAjaxWebForms.debug.js" /&gt;&#xD;
+/// &lt;reference path="..\JavaScript Intellisense\jquery-1.7.2-vsdoc.js" /&gt;&#xD;
+&#xD;
+Type.registerNamespace('TBWebApplication.Controls');&#xD;
+&#xD;
+TBWebApplication.Controls.$CLASSNAME$ = function $NAMESPACE$$CLASSNAME$(element) {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Initializes a new instance of the $CLASSNAME$ class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="element" type="Sys.UI.DomElement" domElement="true"&gt;&#xD;
+    /// Element to associate the behavior with.&#xD;
+    /// &lt;/param&gt;&#xD;
+&#xD;
+    TBWebApplication.Controls.$CLASSNAME$.initializeBase(this, [element]);&#xD;
+&#xD;
+    $END$&#xD;
+};&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Initialize/dispose methods.&#xD;
+&#xD;
+function $NAMESPACE$$CLASSNAME$initialize() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Initializes the component.&#xD;
+    /// &lt;/summary&gt;&#xD;
+&#xD;
+    TBWebApplication.Controls.$CLASSNAME$.callBaseMethod(this, 'initialize');&#xD;
+    &#xD;
+    // TODO: add initialization logic here.&#xD;
+}&#xD;
+&#xD;
+function $NAMESPACE$$CLASSNAME$dispose() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Dispose the component resources.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    &#xD;
+    // TODO: add disposing logic here.&#xD;
+ &#xD;
+    TBWebApplication.Controls.$CLASSNAME$.callBaseMethod(this, 'dispose');&#xD;
+}&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Public Methods&#xD;
+&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Methods&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Properties&#xD;
+&#xD;
+/////////////////////////////////////////////////////////////&#xD;
+// Events&#xD;
+&#xD;
+TBWebApplication.Controls.$CLASSNAME$.prototype =&#xD;
+{&#xD;
+    // Initialize/Dispose methods&#xD;
+    initialize: $NAMESPACE$$CLASSNAME$initialize,&#xD;
+    dispose: $NAMESPACE$$CLASSNAME$dispose,&#xD;
+&#xD;
+    // Public Methods&#xD;
+&#xD;
+    // Methods&#xD;
+&#xD;
+    // Properties&#xD;
+    &#xD;
+    // Events&#xD;
+};&#xD;
+&#xD;
+TBWebApplication.Controls.$CLASSNAME$.registerClass("TBWebApplication.Controls.$CLASSNAME$", Sys.Extended.UI.ControlBase);</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Description/@EntryValue">Creates Get/Set JavaScript property to use in ASP.NET AJAX classes.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Field/=TYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Field/=TYPE/Order/@EntryValue">1</s:Int64>
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Shortcut/@EntryValue">ajaxProp</s:String>
+	
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C90C8D52E0DCD44CBE9510D406AD37DE/Text/@EntryValue">function get_$NAME$() {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// &#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;returns type="$TYPE$"&gt;&#xD;
+    /// &#xD;
+    /// &lt;/returns&gt;&#xD;
+     &#xD;
+    return this._$NAME$;&#xD;
+}&#xD;
+function set_$NAME$(value) {&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// &#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;value type="$TYPE$"&gt;&#xD;
+    /// &#xD;
+    /// &lt;/value&gt;&#xD;
+&#xD;
+    if (this._$NAME$ != value) {&#xD;
+        this._$NAME$ = value;&#xD;
+        this.raisePropertyChanged('$NAME$');&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Description/@EntryValue">Add statement to initialize option function argument with default value.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Field/=ArgumentName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Field/=ArgumentName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Field/=DefaultValue/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Field/=DefaultValue/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Scope/=FFA15E6CFCBE90499C572A859225B012/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Scope/=FFA15E6CFCBE90499C572A859225B012/Type/@EntryValue">InJavaScriptFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Shortcut/@EntryValue">optionalArgument</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EA6740D93CE337468B8A08F8D0F61AEC/Text/@EntryValue">if (typeof ($ArgumentName$) === 'undefined') {&#xD;
+    $ArgumentName$ = $DefaultValue$;&#xD;
+}&#xD;
+$END$</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Description/@EntryValue">Creates empty pure unit test.</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Field/=UnitTestName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Field/=UnitTestName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Shortcut/@EntryValue">testmethod</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F13CA00F631BC640B4FC3E64B66B09E0/Text/@EntryValue">[Test]&#xD;
+[Category(UnitTestCategory.PureUnitTest)]&#xD;
+public void $UnitTestName$()&#xD;
+{&#xD;
+    $END$&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/StyleCopOptions/CheckReSharperCodeStyleOptionsAtStartUp/@EntryValue">False</s:Boolean></wpf:ResourceDictionary>
