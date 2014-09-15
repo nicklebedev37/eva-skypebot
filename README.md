@@ -1,16 +1,16 @@
-eva-skypebot
+Eva-skypebot
 ============
 
 A skypebot which automates access to the internal team facilities (like jira, build systems, etc.). Can be easily extended to support new feature since follows an extendable architecture.
 
 Why the project was started
-============
+------------
 
 Many development teams usually have lots of internal resources like build server, bugtracker, time management system and etc. These resource are very convinient themselves (otherwise they wouldn't have been used) but there is one big inconvinient thing about them: there is no single point of access (Some resources are managed via browser app, some have desktop tray app).
 The purpose of this project is to address such issue. The skypebot will provide 'command line' style access to each of the resources (for more see next section). You may ask: why skypebot and not one more app? My answer is: the skype is the usual communicator within teams, it is ported to many platforms (including mobile), it doesn't require any vpn, tunnel or other transport tweaks. So it's very popular and widespread.
 
 A typical usage of this skypebot
-============
+------------
 
 1. Accessing to the build system (e.g. cruise control) and printing status of the buidls
    you: eva cc
@@ -34,7 +34,7 @@ A typical usage of this skypebot
    eva: nick.l
    
 How to build and deploy
-============
+------------
 
 1. Register a skype account for the bot and put its id to the 'src\Skypebot.Core.Test\app.config' and 'src\Skypebot.ConsoleInterface\app.config' into botskypeid entry.
 
@@ -57,7 +57,7 @@ How to build and deploy
 It's all, now skype bot should reply to your commands, good luck!
 
 How to extend and add new command:
-============
+------------
 
 1. To add new command you need:
    create new class YouNewCommand
